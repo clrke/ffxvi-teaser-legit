@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ffxvi-teaser-legit/static/css/main.be8d400b.chunk.css",
+    "main.js": "/ffxvi-teaser-legit/static/js/main.2619feca.chunk.js",
+    "main.js.map": "/ffxvi-teaser-legit/static/js/main.2619feca.chunk.js.map",
+    "runtime-main.js": "/ffxvi-teaser-legit/static/js/runtime-main.1881bd71.js",
+    "runtime-main.js.map": "/ffxvi-teaser-legit/static/js/runtime-main.1881bd71.js.map",
+    "static/js/2.cd78c0d6.chunk.js": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js",
+    "static/js/2.cd78c0d6.chunk.js.map": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js.map",
+    "index.html": "/ffxvi-teaser-legit/index.html",
+    "precache-manifest.d0d929e51fb5c68b4874ec415097b7c6.js": "/ffxvi-teaser-legit/precache-manifest.d0d929e51fb5c68b4874ec415097b7c6.js",
+    "service-worker.js": "/ffxvi-teaser-legit/service-worker.js",
+    "static/css/main.be8d400b.chunk.css.map": "/ffxvi-teaser-legit/static/css/main.be8d400b.chunk.css.map",
+    "static/js/2.cd78c0d6.chunk.js.LICENSE.txt": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js.LICENSE.txt",
+    "static/media/chickupo.png": "/ffxvi-teaser-legit/static/media/chickupo.1a71b9c6.png",
+    "static/media/concept-art.jpg": "/ffxvi-teaser-legit/static/media/concept-art.2b72f66b.jpg",
+    "static/media/eikon-moves.png": "/ffxvi-teaser-legit/static/media/eikon-moves.ea083564.png",
+    "static/media/eikons.png": "/ffxvi-teaser-legit/static/media/eikons.a7d08ca3.png",
+    "static/media/ffxvi-logo.jpeg": "/ffxvi-teaser-legit/static/media/ffxvi-logo.5660796a.jpeg",
+    "static/media/ffxvi-trailer.mp4": "/ffxvi-teaser-legit/static/media/ffxvi-trailer.39404554.mp4",
+    "static/media/joshua.png": "/ffxvi-teaser-legit/static/media/joshua.e18dd4a0.png",
+    "static/media/App.css": "/ffxvi-teaser-legit/static/media/season-pass-middle-background.d162b633.jpg",
+    "static/media/shield.png": "/ffxvi-teaser-legit/static/media/shield.5bcd2829.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1881bd71.js",
+    "static/js/2.cd78c0d6.chunk.js",
+    "static/css/main.be8d400b.chunk.css",
+    "static/js/main.2619feca.chunk.js"
+  ]
+}
