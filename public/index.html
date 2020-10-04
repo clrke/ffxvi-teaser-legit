@@ -26,7 +26,7 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body style="background-color: black">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +39,29 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAQP6wLpmpClsiC4rmYBiLqOQ_5lbYBlBk",
+        authDomain: "ffxvi-teaser-legit.firebaseapp.com",
+        databaseURL: "https://ffxvi-teaser-legit.firebaseio.com",
+        projectId: "ffxvi-teaser-legit",
+        storageBucket: "ffxvi-teaser-legit.appspot.com",
+        messagingSenderId: "380973188638",
+        appId: "1:380973188638:web:d4fce81264b2d48c3e100f",
+        measurementId: "G-X10ZJWD0GF"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

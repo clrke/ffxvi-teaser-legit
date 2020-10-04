@@ -1,38 +1,131 @@
 .App {
-  text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    width: 100vw;
+    pointer-events: none;
+    opacity: 0.1;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.introductions {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 96px 288px;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/season-pass-middle-background.jpg');
+    background-blend-mode: luminosity;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.introduction h1 {
+    font-size: 32px;
+}
+
+.introduction img.solid-image {
+    width: 100%;
+}
+
+.introduction img.supporting-image {
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 32px;
+}
+
+.App-footer {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 12px;
+    padding: 16px 48px;
+    color: white;
+}
+
+.App-footer a {
+    color: #E5AA35;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-zoom infinite 20s ease-in-out;
+    }
+
+    .introduction img.supporting-image.vertical-animation {
+        animation: crystal-rotate infinite 8s ease-in-out;
+    }
+
+    .introduction img.supporting-image.horizontal-animation {
+        animation: crystal-rotate infinite 8s ease-in-out;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .introductions {
+        padding: 48px;
+    }
+}
+
+@keyframes App-logo-zoom {
+    0% {
+        transform: scale(1.2, 1.2);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+@keyframes vertical-rotate {
+    0% {
+        transform: rotate3d(1, 0, 0, 10deg);
+    }
+    50% {
+        transform: rotate3d(1, 0, 0, -10deg);
+    }
+    100% {
+        transform: rotate3d(1, 0, 0, 10deg);
+    }
+}
+
+@keyframes crystal-rotate {
+    0% {
+        transform: rotate3d(1, 1, 0, 0deg);
+    }
+    25% {
+        transform: rotate3d(1, 1, 0, -10deg);
+    }
+    50% {
+        transform: rotate3d(1, 1, 0, 0deg);
+    }
+    75% {
+        transform: rotate3d(-1, -1, 0, 10deg);
+    }
+    100% {
+        transform: rotate3d(1, 1, 0, 0deg);
+    }
 }
