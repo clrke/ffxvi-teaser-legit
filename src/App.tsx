@@ -29,6 +29,7 @@ function App() {
                 </div>
                 <div className="introduction terragaea">
                     <h1>Terragaea</h1>
+                    <h4>テラガエア</h4>
                     <img src={conceptArt} className="supporting-image vertical-animation" alt="logo"/>
                     <p>
                         Terragaea is composed of four nations:
@@ -44,6 +45,7 @@ function App() {
                 </div>
                 <div className="introduction eikons">
                     <h1>Eikons</h1>
+                    <h4>アイコン</h4>
                     <img src={eikons} className="supporting-image horizontal-animation" alt="logo"/>
                     <p>
                         Eikons, also known as Eikomons (short for Eiko Monsters), are eternal beings that provide divine
@@ -57,6 +59,7 @@ function App() {
                 </div>
                 <div className="introduction joshua">
                     <h1>JOSHUA PYRUS ACOPALIS XXVII</h1>
+                    <h4>ジョシュア　パイルス　アコパリス XXVII</h4>
                     <img src={joshua} className="supporting-image horizontal-animation" alt="logo"/>
                     <p>
                         Phoenix’s Dominant. Son of Archduke John Pyrus Acopalis XXVI.
@@ -65,6 +68,7 @@ function App() {
                 </div>
                 <div className="introduction shield">
                     <h1>JAMESON CAMERON</h1>
+                    <h4>ジェムソン　カメロン</h4>
                     <img src={shield} className="supporting-image horizontal-animation" alt="logo"/>
                     <img src={eikonMoves} className="solid-image" alt="logo"/>
                     <p>
@@ -74,6 +78,7 @@ function App() {
                 </div>
                 <div className="introduction chikupo">
                     <h1>KUBO and CHICKUPO</h1>
+                    <h4>クボ　と　チクポ</h4>
                     <img src={chikupo} className="supporting-image horizontal-animation" alt="logo"/>
                     <p>
                         Kubo is Jameson’s half-Chocobo, half-Moogle. Before Kubo is slain in the fight against Zanbreks,
@@ -83,6 +88,7 @@ function App() {
                 </div>
                 <div className="introduction ps5">
                     <h1>PS5 exclusive</h1>
+                    <h4>プレイステーション 5 エクスクルジッブ</h4>
                     <img src={ps5} className="supporting-image horizontal-animation" alt="logo"/>
                     <p>
                         Also available on PC.
