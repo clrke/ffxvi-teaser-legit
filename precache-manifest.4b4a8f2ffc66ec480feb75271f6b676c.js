@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ac67a984b83c8fd6bfc8c088efb0cc6",
+    "revision": "f939ce75dc7a8da9059ab7bb2c97186f",
     "url": "/ffxvi-teaser-legit/index.html"
   },
   {
-    "revision": "e9d35bbd52cf261fe0d1",
+    "revision": "be53d266e0623dd5c995",
     "url": "/ffxvi-teaser-legit/static/css/main.be8d400b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9d35bbd52cf261fe0d1",
-    "url": "/ffxvi-teaser-legit/static/js/main.2619feca.chunk.js"
+    "revision": "be53d266e0623dd5c995",
+    "url": "/ffxvi-teaser-legit/static/js/main.e4bca3df.chunk.js"
   },
   {
     "revision": "4c1999922dd031966476",

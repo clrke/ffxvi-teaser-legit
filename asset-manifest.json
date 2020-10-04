@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ffxvi-teaser-legit/static/css/main.be8d400b.chunk.css",
-    "main.js": "/ffxvi-teaser-legit/static/js/main.2619feca.chunk.js",
-    "main.js.map": "/ffxvi-teaser-legit/static/js/main.2619feca.chunk.js.map",
+    "main.js": "/ffxvi-teaser-legit/static/js/main.e4bca3df.chunk.js",
+    "main.js.map": "/ffxvi-teaser-legit/static/js/main.e4bca3df.chunk.js.map",
     "runtime-main.js": "/ffxvi-teaser-legit/static/js/runtime-main.1881bd71.js",
     "runtime-main.js.map": "/ffxvi-teaser-legit/static/js/runtime-main.1881bd71.js.map",
     "static/js/2.cd78c0d6.chunk.js": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js",
     "static/js/2.cd78c0d6.chunk.js.map": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js.map",
     "index.html": "/ffxvi-teaser-legit/index.html",
-    "precache-manifest.1bf5a2fa2d2f342a1ea223cc9c2c7b8e.js": "/ffxvi-teaser-legit/precache-manifest.1bf5a2fa2d2f342a1ea223cc9c2c7b8e.js",
+    "precache-manifest.4b4a8f2ffc66ec480feb75271f6b676c.js": "/ffxvi-teaser-legit/precache-manifest.4b4a8f2ffc66ec480feb75271f6b676c.js",
     "service-worker.js": "/ffxvi-teaser-legit/service-worker.js",
     "static/css/main.be8d400b.chunk.css.map": "/ffxvi-teaser-legit/static/css/main.be8d400b.chunk.css.map",
     "static/js/2.cd78c0d6.chunk.js.LICENSE.txt": "/ffxvi-teaser-legit/static/js/2.cd78c0d6.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.1881bd71.js",
     "static/js/2.cd78c0d6.chunk.js",
     "static/css/main.be8d400b.chunk.css",
-    "static/js/main.2619feca.chunk.js"
+    "static/js/main.e4bca3df.chunk.js"
   ]
 }
